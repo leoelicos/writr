@@ -1,6 +1,14 @@
+/* 
+index.js
+
+This script contains necessary code to handle routes to /api
+
+Copyright Leo Wong 2022
+*/
+
 const express = require('express');
 
-// Import our modular routers for /tips and /feedback
+// Import modular router for /notes
 const notesRouter = require('./notes');
 
 const app = express();
