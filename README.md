@@ -29,6 +29,10 @@ https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-
 
 -  Video demo is also on YouTube: (https://youtu.be/YAFUzEbLw6E)
 
+## Schematic diagram
+
+![Ready to write](./schema.png)
+
 ## Screenshots
 
 ### Screenshot: Ready to write
@@ -46,7 +50,6 @@ https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-
 ## Credits
 
 -  BCS Resources
--  normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
 
 ## License
 
