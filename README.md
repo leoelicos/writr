@@ -14,21 +14,18 @@ I made this app in order to learn how to use various middleware, such as express
 
 Deployed: [Note Taker on Heroku](https://leoelicos-note-taker.herokuapp.com/). Will run on a browser.
 
+Source code: [Note Taker on GitHub](https://github.com/leoelicos/bcs-11-note-taker).
+
 | Step               | GUI                                                      |
 | ------------------ | -------------------------------------------------------- |
 | Start taking notes | click 'Get Started'                                      |
 | Make a new note    | Click the `+` icon, enter Note Title, enter Note Text    |
 | Save the new note  | Click the 'save' icon (it appears when you start typing) |
-| Start a new note   | Click the `+` icon                                       |
+| Start a new note   | Click the `+` icon (this will clear any unsaved notes)   |
 
--  Video demo:
-
-https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-8e2f-59cdf60a40c3.mp4
-
+-  Video demo: https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-8e2f-59cdf60a40c3.mp4
 
 -  Video demo is also on YouTube: (https://youtu.be/YAFUzEbLw6E)
-
-Source code: [Note Taker on GitHub](https://github.com/leoelicos/bcs-11-note-taker).
 
 ## Screenshots
 
