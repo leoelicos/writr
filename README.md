@@ -1,22 +1,38 @@
 # Note Taker
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 ## Introduction
 
-This easy-to-use note-taking application allows the user to write and save notes in order to better arrange and document memos for work or study. This application uses npm packages `express` and `uuid`, uses Express.js middleware and is deployed with Heroku. I made this app in order to learn how to use various middleware, such as express.json(), express.urlencoded and express.static, and finally mounted and unmounted middleware with express.use.
+This easy-to-use note-taking application allows the user to write and save notes in order to better arrange and document memos for work or study.
+
+This application uses npm packages `express` and `uuid`, uses Express.js middleware and is deployed with Heroku.
+
+I made this app in order to learn how to use various middleware, such as express.json(), express.urlencoded and express.static, and finally mounted and unmounted middleware with express.use.
 
 ## Usage
 
-Deployed: [Note Taker](https://leoelicos-note-taker.herokuapp.com/). Will run on a browser.
+Deployed: [Note Taker on Heroku](https://leoelicos-note-taker.herokuapp.com/). Will run on a browser.
+
+| Step               | GUI                                                      |
+| ------------------ | -------------------------------------------------------- |
+| Start taking notes | click 'Get Started'                                      |
+| Make a new note    | Click the `+` icon, enter Note Title, enter Note Text    |
+| Save the new note  | Click the 'save' icon (it appears when you start typing) |
+| Start a new note   | Click the `+` icon                                       |
+
+-  Video demo:
+-  Video demo is also on YouTube: (https://youtu.be/YAFUzEbLw6E)
+
+Source code: [Note Taker on GitHub](https://github.com/leoelicos/bcs-11-note-taker).
 
 ## Screenshots
 
-### Viewing
+### Screenshot: Ready to write
 
-![Viewing](./demo1.jpg)
+![Ready to write](./demo1.jpg)
 
-### Writing
+### Screenshot: Writing
 
 ![Writing](./demo2.jpg)
 
