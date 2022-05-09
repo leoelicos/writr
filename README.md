@@ -23,7 +23,9 @@ Source code: [Note Taker on GitHub](https://github.com/leoelicos/bcs-11-note-tak
 | Save the new note  | Click the 'save' icon (it appears when you start typing) |
 | Start a new note   | Click the `+` icon (this will clear any unsaved notes)   |
 
--  Video demo: https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-8e2f-59cdf60a40c3.mp4
+-  Video demo:
+
+https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-8e2f-59cdf60a40c3.mp4
 
 -  Video demo is also on YouTube: (https://youtu.be/YAFUzEbLw6E)
 
