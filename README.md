@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-
 
 ## Schematic Diagram of Front End and Back End
 
-![Ready to write](./schema.png)
+![Ready to write](./schematic.png)
 
 ## Screenshots
 
