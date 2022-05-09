@@ -1,22 +1,12 @@
 [
-    {
-        "title": "asdfasdf",
-        "text": "asdfasdf",
-        "note_id": "ce9ececc-7bbc-4a17-ae05-e28ea1174ea1"
-    },
-    {
-        "title": "asdfasdf",
-        "text": "asdfasdfasdf",
-        "note_id": "cdb123a7-84f6-4975-b14d-c8dafc1210ca"
-    },
-    {
-        "title": "asdfasdfas",
-        "text": "asdfasdf",
-        "note_id": "0cc1f7b9-434c-46fd-b94d-1b294c530402"
-    },
-    {
-        "title": "asdfasdf",
-        "text": "asdfasdf",
-        "note_id": "5261da2d-28ce-4b00-b42f-b24a08cee21f"
-    }
+	{
+		"title": "Note 1 (Example)",
+		"text": "Text for Note 1",
+		"note_id": "ce9ececc-7bbc-4a17-ae05-e28ea1174ea1"
+	},
+	{
+		"title": "Note 2 (Example)",
+		"text": "Text for Note 2",
+		"note_id": "cdb123a7-84f6-4975-b14d-c8dafc1210ca"
+	}
 ]
