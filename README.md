@@ -6,9 +6,9 @@
 
 This easy-to-use note-taking application allows the user to write and save notes in order to better arrange and document memos for work or study.
 
-This application uses npm packages `express` and `uuid`, uses Express.js middleware and is deployed with Heroku.
+This application uses npm packages `express` and `uuid`, uses `Express.js` middleware and is deployed with `Heroku`.
 
-I made this app in order to learn how to use various middleware, such as express.json(), express.urlencoded and express.static, and finally mounted and unmounted middleware with express.use.
+I made this app in order to learn how to use various middleware, such as `express.json`, `express.urlencoded` and `express.static`, and finally mounted and unmounted middleware with `express.use`.
 
 ## Usage
 
