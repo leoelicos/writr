@@ -6,7 +6,7 @@ This script contains necessary code to run the server of Note Taker
 Copyright Leo Wong 2022
 */
 
-// express is an npm library package which link client requests to server responses
+// express is an npm library package which links client requests to server responses
 const express = require('express');
 
 // path is a Node standard library package which provides utilities for working with file and directory paths
@@ -24,26 +24,26 @@ const PORT = process.env.PORT || 3001;
 // assign variable for readability
 const app = express();
 
-// Middleware for logging all requests to the server
+// implement middleware for logging all requests to the server
 app.use(clog);
 
-// Middleware for parsing JSON
+// implement middleware for parsing JSON
 app.use(express.json());
 
-// Middleware for parsing urlencoded form data
+// implement middleware for parsing urlencoded form data
 app.use(express.urlencoded({ extended: true }));
 
-// Mounted middleware for handling /api routes
+// implement middleware for handling /api routes
 app.use('/api', api);
 
-// Mounted middleware for handling / routes
+// implement mounted middleware for handling / routes
 app.use(express.static('public'));
 
-// GET Route for notes page
+// implement GET Route for notes page
 app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, './public/assets/pages/notes.html')));
 
-// Wildcard route to direct users to index.html
+// implement wildcard route to direct users to index.html
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
 
-// Start server
+// implement server
 app.listen(PORT, () => console.log(`App listening at http://localhost:${PORT} 🚀`));
