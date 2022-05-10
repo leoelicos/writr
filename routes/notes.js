@@ -35,10 +35,9 @@ notes.get('/', (req, res) => {
 	// read from the notes database
 	readFromFile('db/db.json')
 		//
+		// return the data as a JSON
+		// also respond to the GET request with status(OK)
 		.then((data) => {
-			//
-			// return the data as a JSON
-			// also respond to the GET request with status(OK)
 			res.status(OK).json(JSON.parse(data));
 		});
 });
@@ -64,6 +63,7 @@ notes.post('/', (req, res) => {
 
 		// respond to the POST request with status(CREATED)
 		res.status(CREATED).json(`Note added successfully 🚀`);
+		//
 	} else {
 		//
 		// respond to the POST request with status(BADREQUEST)
@@ -73,6 +73,7 @@ notes.post('/', (req, res) => {
 
 // implement route handler for DELETE request to /api/notes/:note_id
 notes.delete('/:note_id', (req, res) => {
+	//
 	// check if request has a body, and a note_id property inside the body
 	if (req.body && req.params.note_id) {
 		//
