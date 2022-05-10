@@ -24,6 +24,8 @@ const PORT = process.env.PORT || 3001;
 // assign variable for readability
 const app = express();
 
+// function to start application
+const init = () => {
 // implement middleware for logging all requests to the server
 app.use(clog);
 
@@ -47,3 +49,7 @@ app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.htm
 
 // implement server
 app.listen(PORT, () => console.log(`App listening at http://localhost:${PORT} 🚀`));
+};
+
+// call function to start application
+init();
