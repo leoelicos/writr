@@ -31,21 +31,21 @@ https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-
 
 ## Schematic Diagram of Front End and Back End
 
-![Ready to write](./schematic.png)
+![Ready to write](./assets/schematic.png)
 
 ## Screenshots
 
 ### Screenshot: Ready to write
 
-![Ready to write](./demo1.jpg)
+![Ready to write](./assets/demo1.jpg)
 
 ### Screenshot: Writing
 
-![Writing](./demo2.jpg)
+![Writing](./assets/demo2.jpg)
 
 ### Screenshot: Saved
 
-![Writing](./demo3.jpg)
+![Writing](./assets/demo3.jpg)
 
 ## Credits
 
