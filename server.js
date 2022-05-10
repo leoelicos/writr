@@ -26,29 +26,29 @@ const app = express();
 
 // function to start application
 const init = () => {
-// implement middleware for logging all requests to the server
-app.use(clog);
+	// implement middleware for logging all requests to the server
+	app.use(clog);
 
-// implement middleware for parsing JSON
-app.use(express.json());
+	// implement middleware for parsing JSON
+	app.use(express.json());
 
-// implement middleware for parsing urlencoded form data
-app.use(express.urlencoded({ extended: true }));
+	// implement middleware for parsing urlencoded form data
+	app.use(express.urlencoded({ extended: true }));
 
-// implement middleware for handling /api routes
-app.use('/api', api);
+	// implement middleware for handling /api routes
+	app.use('/api', api);
 
-// implement mounted middleware for handling / routes
-app.use(express.static('public'));
+	// implement mounted middleware for handling / routes
+	app.use(express.static('public'));
 
-// implement GET Route for notes page
-app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, './public/assets/pages/notes.html')));
+	// implement GET Route for notes page
+	app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, './public/assets/pages/notes.html')));
 
-// implement wildcard route to direct users to index.html
-app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
+	// implement wildcard route to direct users to index.html
+	app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
 
-// implement server
-app.listen(PORT, () => console.log(`App listening at http://localhost:${PORT} 🚀`));
+	// implement server
+	app.listen(PORT, () => console.log(`App listening at http://localhost:${PORT} 🚀`));
 };
 
 // call function to start application
