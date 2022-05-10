@@ -1,3 +1,11 @@
+/* 
+notes.js
+
+Front end
+
+This script is taken from BCS Resources, and has been modified on line 51 and 52 to change variable 'id' to 'note_id'
+
+*/
 let noteTitle;
 let noteText;
 let saveNoteBtn;
