@@ -24,15 +24,11 @@ const { v4: uuidv4 } = require('uuid');
 
 // implement route handler for GET request to /api/notes/
 notes.get('/', (req, res) => {
-	console.log('hello');
 	readFromFile('db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 // implement route handler for POST request to /api/notes/
 notes.post('/', (req, res) => {
-	console.log(`bear`);
-	console.log(req.body);
-
 	const { title, text } = req.body;
 
 	if (req.body) {
