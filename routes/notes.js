@@ -47,18 +47,34 @@ notes.post('/', (req, res) => {
 
 // implement route handler for DELETE request to /api/notes/:note_id
 notes.delete('/:note_id', (req, res) => {
-	const noteId = req.params.note_id;
+	// destructure note_id from the database;
+	const { note_id } = req.params;
+
+	// read from the database
 	readFromFile('db/db.json')
+		// parse the read data into an array
 		.then((data) => JSON.parse(data))
+
+		// iterate through the array
 		.then((json) => {
-			// Make a new array of all notes except the one with the ID provided in the URL
-			const result = json.filter((note) => note.note_id !== noteId);
+			// check that note_id in DELETE request actually exists in the database
+			const idExists = json.find((note) => note.note_id === note_id);
 
-			// Save that array to the filesystem
-			writeToFile('db/db.json', result);
+			// if note_id doesn't exist in the database
+			// respond to the DELETE request with 404
+			if (idExists === undefined) {
+				res.status(404).json('Note ${note_id} not found in database');
+			} else {
+				// filter out the note that has been found
+				const result = json.filter((note) => note.note_id !== note_id);
 
-			// Respond to the DELETE request
-			res.json(`Item ${noteId} has been deleted 🗑️`);
+				// rewrite database with new array of filtered notes
+				writeToFile('db/db.json', result);
+
+				// if note_id existed in the database and has been deleted
+				// respond to the DELETE request with 201
+				res.status(201).json(`Note ${note_id} has been deleted from database`);
+			}
 		});
 });
 
