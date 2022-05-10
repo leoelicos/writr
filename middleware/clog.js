@@ -11,25 +11,33 @@ Copyright Leo Wong 2022
 */
 
 // Custom middleware that logs out the type and path of each request to the server
+// This callback function will be exported
 const clog = (req, res, next) => {
-	const fgCyan = '\x1b[36m';
-	switch (req.method) {
-		case 'GET': {
-			console.info(`📗 ${fgCyan}${req.method} request to ${req.path}`);
-			break;
-		}
-		case 'POST': {
-			console.info(`📘 ${fgCyan}${req.method} request to ${req.path}`);
-			break;
-		}
-		case 'DELETE': {
-			console.info(`📙 ${fgCyan}${req.method} request to ${req.path}`);
-			break;
-		}
-		default:
-			console.log(`📒 ${fgCyan}${req.method} request to ${req.path}`);
-	}
+	// variable for req.method
+	const method = req.method;
 
+	// variable for req.path;
+	const path = req.path;
+
+	// color of the console.log text
+	const fgCyan = '\x1b[36m';
+
+	// array of expected request methods
+	const reqmethods = ['GET', 'POST', 'DELETE'];
+
+	// array of corresponding glyphs
+	const glyphs = ['📗', '📘', '📙'];
+
+	// default glyph for other request methods
+	const glyphDefault = '📒';
+
+	// assign glyph variable to corresponding glyph, if method is found, or the default glyph
+	const glyph = reqmethods.includes(method) ? glyphs[reqmethods.indexOf(method)] : glyphDefault;
+
+	// print console.log message
+	console.info(`${glyph} ${fgCyan}${method} request to ${path}`);
+
+	// Express requirement for middleware. This will execute the next middleware.
 	next();
 };
 
