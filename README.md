@@ -16,12 +16,12 @@ Deployed: [Note Taker on Heroku](https://leoelicos-note-taker.herokuapp.com/). W
 
 Source code: [Note Taker on GitHub](https://github.com/leoelicos/bcs-11-note-taker).
 
-| Step               | GUI                                                      |
-| ------------------ | -------------------------------------------------------- |
-| Start taking notes | click 'Get Started'                                      |
-| Make a new note    | Click the `+` icon, enter Note Title, enter Note Text    |
-| Save the new note  | Click the 'save' icon (it appears when you start typing) |
-| Start a new note   | Click the `+` icon (this will clear any unsaved notes)   |
+| Step               | GUI                                                   |
+| ------------------ | ----------------------------------------------------- |
+| Start taking notes | click 'Get Started'                                   |
+| Make a new note    | Click the ➕ icon, enter Note Title, enter Note Text  |
+| Save the new note  | Click the 💾 icon (it appears when you start typing)  |
+| Start a new note   | Click the ➕ icon (this will clear any unsaved notes) |
 
 -  Video demo:
 
