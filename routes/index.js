@@ -15,6 +15,7 @@ const notesRouter = require('./notes');
 // assign variable for readability
 const app = express();
 
+// implement mounted middleware for handling /notes
 app.use('/notes', notesRouter);
 
 module.exports = app;
