@@ -1,3 +1,15 @@
+/* 
+clog.js
+
+This script is modified from BCS Resources
+
+It contains necessary code to prettify console log messages
+
+I added a case for DELETE, and changed the icon for default.
+
+Copyright Leo Wong 2022
+*/
+
 // Custom middleware that logs out the type and path of each request to the server
 const clog = (req, res, next) => {
 	const fgCyan = '\x1b[36m';
