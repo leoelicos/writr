@@ -6,11 +6,13 @@ This script contains necessary code to handle routes to /api
 Copyright Leo Wong 2022
 */
 
+// express is an npm library package which links client requests to server responses
 const express = require('express');
 
-// Import modular router for /notes
+// import modular router for /notes
 const notesRouter = require('./notes');
 
+// assign variable for readability
 const app = express();
 
 app.use('/notes', notesRouter);
