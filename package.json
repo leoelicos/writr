@@ -1,24 +1,24 @@
 {
-	"name": "bcs-11-note-taker",
-	"version": "1.0.0",
-	"description": "Note taker using Express and Heroku",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/leoelicos/bcs-11-note-taker.git"
-	},
-	"author": "Leo Wong",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/leoelicos/bcs-11-note-taker/issues"
-	},
-	"homepage": "https://github.com/leoelicos/bcs-11-note-taker#readme",
-	"main": "server.js",
-	"dependencies": {
-		"express": "^4.17.1",
-		"uuid": "^8.3.2"
-	}
+  "name": "writr",
+  "version": "1.0.0",
+  "description": "Note taker using Express and Heroku",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoelicos/writr.git"
+  },
+  "author": "Leo Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoelicos/writr/issues"
+  },
+  "homepage": "https://github.com/leoelicos/writr#readme",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
 }

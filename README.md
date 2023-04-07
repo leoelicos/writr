@@ -1,4 +1,4 @@
-# Note Taker
+# writr
 
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
@@ -12,9 +12,9 @@ I made this app in order to learn how to use various middleware, such as `expres
 
 ## Usage
 
-Deployed: [Note Taker on Heroku](https://leoelicos-note-taker.herokuapp.com/). Will run on a browser.
+Deployed: [writr on Heroku](https://writr.herokuapp.com/). Will run on a browser.
 
-Source code: [Note Taker on GitHub](https://github.com/leoelicos/bcs-11-note-taker).
+Source code: [writr on GitHub](https://github.com/leoelicos/writr).
 
 | Step               | GUI                                                   |
 | ------------------ | ----------------------------------------------------- |
@@ -23,11 +23,11 @@ Source code: [Note Taker on GitHub](https://github.com/leoelicos/bcs-11-note-tak
 | Save the new note  | Click the 💾 icon (it appears when you start typing)  |
 | Start a new note   | Click the ➕ icon (this will clear any unsaved notes) |
 
--  Video demo:
+- Video demo:
 
 https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-8e2f-59cdf60a40c3.mp4
 
--  Video demo is also on YouTube: (https://youtu.be/YAFUzEbLw6E)
+- Video demo is also on YouTube: (https://youtu.be/YAFUzEbLw6E)
 
 ## Schematic Diagram of Front End and Back End
 
@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/99461390/167338663-9d9135c9-c289-48b4-
 
 ## Credits
 
--  BCS Resources
+- BCS Resources
 
 ## License
 
